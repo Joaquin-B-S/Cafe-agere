@@ -1,0 +1,83 @@
+@import "../abstracts/variables";
+
+.main {
+    display: flex;
+    position: relative;
+
+    &__title h1 {
+        font-family: $ptmono;
+        font-size: $xxx-large;
+        margin-left: 45px;
+        margin-top: 48px;
+        line-height: 78px;
+    }
+
+    &__title h3 {
+        font-family: $roboto;
+        font-size: 20px;
+        font-weight: lighter;
+        margin-left: 45px;
+        margin-top: 7px;
+    }
+
+    .main__image {
+        position: relative;
+    }
+
+    .main__numbers {
+        position: absolute;
+        background-color: $white;
+        bottom: 0;
+        right: 0;
+        width: 50rem;
+        height: 15rem;
+        padding: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .numbers__number h4 {
+        margin-top: 22px;
+        font-family: $ptmono;
+        font-size: $xx-large;
+        text-align: center;
+    }
+
+    .numbers__number p {
+        margin-left: 3rem;
+        font-family: $roboto;
+        font-size: $medium;
+        line-height: 21px;
+        letter-spacing: 0.1px;
+    }
+
+    .main__colors {
+        position: absolute;
+        bottom: 0;
+        right: 260px;
+        top: 275px;
+    }
+
+    .colors__orange {
+        color: $white;
+        text-align: center;
+        background-color: $Flame;
+        width: 15rem;
+        height: 15rem;
+
+        & i {
+            margin-top: 3rem;
+        }
+    }
+
+    .colors__yellow {
+        background-color: $Coral;
+        width: 15rem;
+        height: 15rem;
+        position: absolute;
+        top: 19px;
+        right: -25px;
+        z-index: -1;
+    }
+}

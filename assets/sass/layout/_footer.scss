@@ -1,0 +1,55 @@
+.footer {
+    position: relative;
+    display: flex;
+    padding: 5rem;
+
+    &__info {
+        width: 29rem;
+        margin-right: 5rem;
+    }
+
+    &__map--img {
+        width: 45rem;
+    }
+
+    &__blue {
+        position: absolute;
+        background-color: $BluedeFrance;
+        width: 50rem;
+        height: 25rem;
+        top: -1px;
+        right: 380px;
+        z-index: -1;
+    }
+}
+
+.info__title {
+    font-family: $ptmono;
+    font-size: $x-large;
+    margin-bottom: 2rem;
+}
+
+.info__paragraph {
+    font-family: $roboto;
+    font-size: $medium;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+}
+
+.footer__coffe--small--img {
+    position: absolute;
+    height: 16rem;
+    width: 10rem;
+    top: 0;
+    right: 310px;
+    object-fit: cover;
+}
+
+.footer__coffe-foto--img {
+    position: absolute;
+    width: 45rem;
+    height: 30rem;
+    z-index: -1;
+    top: 0;
+    right: -70px;
+}

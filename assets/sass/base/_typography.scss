@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:wght@300&display=swap");
+
+html {
+    /* 1rem = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "PT Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
